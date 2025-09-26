@@ -1,0 +1,16 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.index-page h1 {
+    border-style: solid;
+    color: white;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: red;
+    border-color: darkred;
+    border-width: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
