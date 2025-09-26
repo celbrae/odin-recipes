@@ -18,10 +18,33 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    background-attachment: fixed;
+    max-width: 1000px;
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
 }
 
-.cheeseburger-page {
-    max-width: 450px;
-    margin-left: 25px;
+.burger-background {
+    background-image: url(./images/parchment-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.text-container {
+    display: block;
+    border: 8px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.return-link {
+    border: 5px solid black;
+    width: fit-content;
+    padding: 3px;
+}
+
