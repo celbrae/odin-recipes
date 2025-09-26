@@ -3,14 +3,24 @@
 }
 
 .index-page h1 {
-    border-style: solid;
+    border: 5px solid darkred;
+    background-color: red;
     color: white;
     width: 200px;
     margin: 0 auto;
     text-align: center;
-    background-color: red;
-    border-color: darkred;
-    border-width: 5px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 5px;
+}
+
+.cheeseburger-page {
+    background-image: url(./images/burger-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cheeseburger-page {
+    max-width: 450px;
+    margin-left: 25px;
 }
